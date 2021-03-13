@@ -1,0 +1,16 @@
+[package]
+name = "bset"
+version = "0.1.0"
+authors = ["Maroš Grego <maros@grego.site>"]
+edition = "2018"
+description = "Fast and compact sets of bytes or ASCII characters"
+repository = "https://github.com/grego/bset"
+homepage = "https://github.com/grego/bset"
+keywords = ["byte", "set", "ascii", "search", "fast"]
+categories = ["no-std", "data-structures", "rust-patterns", "embedded"]
+license = "MIT"
+readme = "README.md"
+
+[dev-dependencies]
+rand = "0.8"
+byte_set = "0.1.3"
